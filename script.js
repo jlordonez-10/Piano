@@ -46,7 +46,7 @@ const playTune = (key) => {
 
     if (!audio) return;
 
-    const volumeInput = document.querySelector("volume-slider input");
+    const volumeInput = document.querySelector(".volume-slider input");
 
     audio.currentTime = 0;
     audio.volume = volumeInput.value;
